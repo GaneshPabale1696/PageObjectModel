@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="Test_Scenarios.TestMethods_GoogleSearch">
+        <methods>
+          <include name="VerifyandAccessFacebookAccount"/>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+          <include name="VerifyLoginFunctionality"/>
+        </methods>
+      </class> <!-- Test_Scenarios.TestMethods_GoogleSearch -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
